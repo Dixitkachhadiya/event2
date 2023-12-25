@@ -1,0 +1,328 @@
+* {
+  text-decoration: none;
+}
+
+/* menu css */
+a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: white;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #42899B;
+}
+
+.navbar {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  margin-left: 35px;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+}
+
+/* resposive menu  */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #EEF5FF;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  transform: scale(120%);
+}
+
+#OpenButton {
+  display: none;
+  color: white;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#myNav {
+  background-color: #42899B;
+  opacity: 0.8;
+}
+
+
+/* service section  */
+
+#main-img-container {
+  background-image: url("WED\ 1.png");
+  /* width: 1473px; */
+  /* height: 649px; */
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+#WEDDING {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  color: #28405C;
+  margin-top: 120px;
+  font-family: "Playfair Disply";
+}
+
+#wed-img {
+  width: 100%;
+  height: auto;
+  /* position: relative; */
+  z-index: -1;
+
+}
+
+#w-card {
+  /* width: 100%; */
+  background-color: #A8C6CD;
+  /* position: absolute; */
+  /* margin-top: -800px; */
+}
+
+#cards-main-div{
+  padding: 80px 0px;
+}
+
+#card-header{
+  background-color: #28405C;
+  height: 120px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+  margin-top: -20%;
+}
+
+#p1{
+    font-family: "Lato";
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #28405C;
+}
+
+#service-img{
+  width: 100%;
+  height: auto;
+}
+
+#view-more-btn{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+  border-radius: 30px;
+  background-color: #28405C;
+  border: none;
+  margin-top: 20px;
+  width: 50%;
+}
+
+#w-card-2{
+  background-color: #A8C6CD;
+}
+
+#PRIVATE-PARTIES{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+#background-div{
+  background-color: #42899B;
+  padding: 20px 0px;
+  font-family: "Playfair Disply";
+
+}
+
+#main-img-container1{
+  background-image: url("BDAY\ 1.png");
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* last contect div  */
+
+#magic-main-div{
+  background-color: #146C83;
+}
+#container{
+  padding: 70px 0px;
+}
+#contact-div{
+  border: 2px solid white;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+#p11{
+  color: white;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 100px;
+}
+.i1{
+  margin-left: 80px;
+  font-size: 40px;
+}
+#p9{
+  color: white;
+  font-family: "Lato";
+  font-weight: 300;
+  letter-spacing: 0em;
+  font-size: 30px;
+}
+#sp1{
+  font-size: 31px;
+  color: white;
+  font-weight: 800;
+  font-family: "Lato";
+  letter-spacing: 0em;
+
+}
+
+#p10{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Lato";
+
+}
+#p11{
+  color: white;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 100px;
+}
+.i1{
+  margin-left: 80px;
+  font-size: 40px;
+}
+/* media quary  */
+
+@media only screen and (max-width : 768px) {
+  #OpenButton {
+    display: block;
+    color: white;
+  }
+
+  #wed-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  #wed-img {
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+    z-index: -1;
+
+  }
+  #ain-img-container{
+    height: auto;
+  }
+  #w-card{
+    margin-top: 80px;
+  }
+  #w-card-2{
+    margin-top: 80px;
+  }
+
+  #view-more-btn{
+    width: 100%;
+  }
+
+  #p1{
+    font-size: 12px;
+  }
+  #p11{
+    margin-left: 0px;
+  }
+  .i1{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width : 1024px){
+  #view-more-btn{
+    width: 100%;
+  }
+
+  #p1{
+    font-size: 12px;
+    text-align: none;
+  }
+}
