@@ -105,11 +105,12 @@ header {
 
 #img1 {
     width: 100%;
-    margin-top: 102px;
     opacity: 0.4;
 
 }
-
+#main-div-contact{
+    margin-top: 102px;
+}
 #contact-card {
     background: none;
     border: none;
