@@ -205,6 +205,10 @@ header {
   object-position: 50% 50%;
 }
 
+#col{
+  padding : 10px;
+}
+
 /* last contect div  */
 
 #magic-main-div{
