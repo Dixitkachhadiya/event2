@@ -113,7 +113,7 @@ a {
   #img1{
     width: 100%;
     height: auto;
-    /* padding: 5px; */
+    padding: 5px;
     /* object-fit: cover; */
   }
 
@@ -176,6 +176,9 @@ a {
 .i1{
   margin-left: 80px;
   font-size: 40px;
+}
+#col{
+  padding : 10px;
 }
   @media only screen and (max-width : 768px) {
     #OpenButton {
